@@ -1,0 +1,29 @@
+# Sensitive / env
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.keystore
+*.jks
+
+# Node & build artifacts (all subpackages)
+**/node_modules/
+**/.next/
+**/dist/
+**/out/
+**/coverage/
+**/.turbo/
+**/.vercel/
+
+# Hardhat artifacts
+**/artifacts/
+**/cache/
+**/coverage.json
+**/types/
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+*.log
