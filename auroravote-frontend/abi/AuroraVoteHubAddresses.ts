@@ -1,0 +1,1 @@
+export const AuroraVoteHubAddresses = { "31337": { address: "0x0000000000000000000000000000000000000000" }, "11155111": { address: "0xFb0E70489235c76A47A3584FA7673E7e211a1F39" } } as const;
